@@ -22181,32 +22181,32 @@ p.disc.banner-para {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .navigation-center-bottom.service .swiper-button-next {
-    right: 40%;
+    /* right: 40%; */
   }
 }
 @media only screen and (max-width: 767px) {
   .navigation-center-bottom.service .swiper-button-next {
-    right: 40%;
+    /* right: 40%; */
   }
 }
 @media only screen and (max-width: 575px) {
   .navigation-center-bottom.service .swiper-button-next {
-    right: 36%;
+    /* right: 36%; */
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .navigation-center-bottom.service .swiper-button-prev {
-    left: 40%;
+    /* left: 40%; */
   }
 }
 @media only screen and (max-width: 767px) {
   .navigation-center-bottom.service .swiper-button-prev {
-    left: 40%;
+    /* left: 40%; */
   }
 }
 @media only screen and (max-width: 575px) {
   .navigation-center-bottom.service .swiper-button-prev {
-    left: 36%;
+    /* left: 36%; */
   }
 }
 .navigation-center-bottom .swiper-pagination {
@@ -22223,7 +22223,7 @@ p.disc.banner-para {
   color: var(--color-primary-3);
 }
 .navigation-center-bottom .swiper-button-next {
-  right: 45%;
+  /* right: 45%; */
 }
 .navigation-center-bottom .swiper-button-next::after {
   content: "\f061";
@@ -24475,27 +24475,28 @@ p.disc.banner-para {
   overflow: visible;
 }
 .swiper.mygallery .swiper-button-next {
-  top: -16%;
-  right: 32px;
+  top: 110%;
+  right: 40%;
+  width: max-content;
 }
 @media only screen and (max-width: 1199px) {
   .swiper.mygallery .swiper-button-next {
-    top: -22%;
+    top: 110%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .swiper.mygallery .swiper-button-next {
-    top: -12%;
+    top: 110%;
   }
 }
 @media only screen and (max-width: 767px) {
   .swiper.mygallery .swiper-button-next {
-    top: -12%;
+    /* top: -12%; */
   }
 }
 @media only screen and (max-width: 575px) {
   .swiper.mygallery .swiper-button-next {
-    top: -5%;
+    /* top: -5%; */
   }
 }
 .swiper.mygallery .swiper-button-next::after {
@@ -24510,36 +24511,36 @@ p.disc.banner-para {
   transition: 0.3s;
 }
 .swiper.mygallery .swiper-button-next:hover::after {
-  background: var(--color-primary);
+  background: var(--color-primary-2);
   color: #fff;
 }
 .swiper.mygallery .swiper-button-next.six:hover::after {
-  background: var(--color-primary-6);
+  background: var(--color-primary-2);
 }
 .swiper.mygallery .swiper-button-prev {
-  top: -16%;
-  right: 165px;
-  left: auto;
+  top: 110%;
+  left: 43%;
+  width: max-content;
 }
 @media only screen and (max-width: 1199px) {
   .swiper.mygallery .swiper-button-prev {
-    top: -22%;
+    top: 110%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .swiper.mygallery .swiper-button-prev {
-    top: -12%;
+    top: 110%;
   }
 }
 @media only screen and (max-width: 767px) {
   .swiper.mygallery .swiper-button-prev {
-    top: -12%;
-    right: 115px;
+    /* top: -12%;
+    right: 115px; */
   }
 }
 @media only screen and (max-width: 575px) {
   .swiper.mygallery .swiper-button-prev {
-    top: -5%;
+    /* top: -5%; */
   }
 }
 .swiper.mygallery .swiper-button-prev::after {
@@ -24554,24 +24555,23 @@ p.disc.banner-para {
   transition: 0.3s;
 }
 .swiper.mygallery .swiper-button-prev:hover::after {
-  background: var(--color-primary);
+  background: var(--color-primary-2);
   color: #fff;
 }
 .swiper.mygallery .swiper-button-prev.six:hover::after {
-  background: var(--color-primary-6);
+  background: var(--color-primary-2);
 }
 .swiper.mygallery .swiper-pagination {
-  top: -18%;
-  left: auto;
-  max-width: max-content;
-  right: 100px;
+  top: 110%;
+  left: 50%;
+  width: max-content;
   height: max-content;
   font-weight: 700;
   color: #1c2539;
 }
 @media only screen and (max-width: 1199px) {
   .swiper.mygallery .swiper-pagination {
-    top: -25%;
+    top: 110%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -24591,7 +24591,7 @@ p.disc.banner-para {
   }
 }
 .swiper.mygallery .swiper-pagination .swiper-pagination-current {
-  color: var(--color-primary);
+  color: var(--color-primary-2);
   font-weight: 700;
 }
 .swiper.mygallery .swiper-pagination .swiper-pagination-total {
@@ -24599,11 +24599,11 @@ p.disc.banner-para {
   font-weight: 700;
 }
 .swiper.mygallery .swiper-pagination.six .swiper-pagination-current {
-  color: var(--color-primary-6);
+  color: var(--color-primary-2);
 }
 
 .rts-title-area.six p.pre-title {
-  color: var(--color-primary-6);
+  color: var(--color-primary-2);
 }
 
 .tab-button-area-one .nav {
@@ -26762,7 +26762,7 @@ p.disc.banner-para {
 }
 @media only screen and (max-width: 479px) {
   .mySwipertestimonial .swiper-button-next {
-    right: 4%;
+    /* right: 4%; */
   }
 }
 .mySwipertestimonial .swiper-button-next::after {
