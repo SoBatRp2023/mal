@@ -11008,7 +11008,7 @@ body {
   margin-bottom: 24px;
 }
 .rts-title-area.service::after {
-  content: "Services";
+  content: "Business";
   left: 50%;
   transform: translateX(-50%);
 }
@@ -16239,6 +16239,7 @@ body.sal-disabled [data-sal|="flip"] {
   border-radius: 0 5px 5px 0;
 }
 .search-input-area .search-close-icon {
+  border-radius: 100px;
   cursor: pointer;
   position: absolute;
   right: 18px;
@@ -16808,6 +16809,12 @@ li.has-droupdown {
   color: #1c2539;
 }
 
+.breadcrumb-bg-biodiesel {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/breadcrumb/mal/biodiesel.jpg");
+  background-position: bottom;
+}
+
 .breadcrumb-bg-log-manage {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/breadcrumb/mal/logistic-management.jpg");
@@ -16830,7 +16837,12 @@ li.has-droupdown {
 
 .breadcrumb-bg-about-us {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/breadcrumb/mal/about-us.jpeg");
+    url("../images/cta/mal/02.png");
+}
+
+.breadcrumb-bg-contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/breadcrumb/mal/contact-us.jpg");
 }
 
 .breadcrumb-bg {
@@ -17734,6 +17746,7 @@ li.has-droupdown {
   color: #1c2539;
 }
 .rts-btn.btn-primary-4 {
+  border-radius: 100px;
   background: var(--color-primary-2);
   color: #fff;
 }
@@ -17883,10 +17896,10 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
   color: #1c2539;
 }
 .rts-read-more:hover {
-  color: var(--color-primary);
+  color: var(--color-primary-2);
 }
 .rts-read-more:hover i {
-  background: var(--color-primary);
+  background: var(--color-primary-2);
   color: var(--color-white);
 }
 .rts-read-more:focus {
@@ -20320,7 +20333,7 @@ p.disc.banner-para {
 .single-business-solution i {
   height: 18px;
   width: 18px;
-  background: var(--color-primary-3);
+  background: var(--color-primary-2);
   font-size: 10px;
   border-radius: 50%;
   display: flex;
@@ -21084,6 +21097,7 @@ p.disc.banner-para {
   padding: 52px 35px 40px 64px;
   position: relative;
   height: 100%;
+  flex-wrap: wrap;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .service-one-inner {
@@ -21174,48 +21188,49 @@ p.disc.banner-para {
   display: none;
 }
 .service-one-inner .thumbnail {
-  margin-right: 37px;
+  margin-bottom: 40px;
 }
 @media only screen and (min-width: 1600px) and (max-width: 1919px) {
   .service-one-inner .thumbnail {
-    margin-right: 20px;
+    margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .service-one-inner .thumbnail {
-    margin-right: 20px;
+    margin-bottom: 20px;
   }
 }
 @media only screen and (max-width: 1199px) {
   .service-one-inner .thumbnail {
-    margin-right: 20px;
+    margin-bottom: 20px;
   }
 }
 .service-one-inner .thumbnail img {
-  max-width: 65px;
+  width: 300px;
   height: auto;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .service-one-inner .thumbnail img {
-    max-width: 50px;
+    /* max-width: 50px; */
   }
 }
 @media only screen and (max-width: 1199px) {
   .service-one-inner .thumbnail img {
-    max-width: 40px;
+    /* max-width: 40px; */
   }
 }
 .service-one-inner .service-details .title {
-  margin-bottom: 7px;
+  font-size: 32px;
+  margin-bottom: 12px;
 }
 @media only screen and (min-width: 1600px) and (max-width: 1919px) {
   .service-one-inner .service-details .title {
-    font-size: 21px;
+    font-size: 32px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .service-one-inner .service-details .title {
-    font-size: 20px;
+    font-size: 24px;
   }
 }
 .service-one-inner .service-details p {
@@ -21247,6 +21262,11 @@ p.disc.banner-para {
 .service-detials-step-1 .thumbnail {
   margin-bottom: 45px;
 }
+
+.service-detials-step-1 .thumbnail img {
+  border-radius: 20px;
+}
+
 .service-detials-step-1 .title {
   margin-bottom: 16px;
 }
@@ -22014,18 +22034,19 @@ p.disc.banner-para {
   border-radius: 15px;
 }
 .service-one-inner-four .big-thumbnail-area .thumbnail:hover img {
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
 }
 .service-one-inner-four .big-thumbnail-area .thumbnail img {
   width: 100%;
+  height: 500px;
   transition: 0.5s;
   border-radius: 15px;
 }
 .service-one-inner-four .big-thumbnail-area .content {
   position: absolute;
-  bottom: 40px;
-  left: 40px;
-  right: 40px;
+  bottom: 0;
+  left: 5%;
+  right: 5%;
   z-index: 1;
   height: 145px;
   overflow: hidden;
@@ -22082,9 +22103,9 @@ p.disc.banner-para {
   height: 100%;
   background: linear-gradient(to bottom, rgba(15, 15, 15, 0.01), black 100%);
 }
-.service-one-inner-four .big-thumbnail-area:hover .content {
+/* .service-one-inner-four .big-thumbnail-area:hover .content {
   height: 206px;
-}
+} */
 .service-one-inner-four:hover .thumbnail img {
   transform: scale(1.2);
 }
@@ -23469,7 +23490,7 @@ p.disc.banner-para {
   }
 }
 .rts-business-solution5 .container .rts-business-solution-right .content-area {
-  margin-right: 100px;
+  margin-right: 60px;
 }
 @media (max-width: 1200px) and (min-width: 991px) {
   .rts-business-solution5
@@ -25337,7 +25358,7 @@ p.disc.banner-para {
 .portfolio-area.style-4 .item:hover .portfolio-wrapper .pf-btn {
   transform: scale(1);
 }
-.portfolio-area.style-4 .item::before {
+/* .portfolio-area.style-4 .item::before {
   content: "";
   position: absolute;
   background: var(--color-primary-2);
@@ -25350,8 +25371,9 @@ p.disc.banner-para {
   transition: all 0.3s ease 0s;
   clip-path: polygon(0% -65%, 0% 100%, 99% 100%);
   border-radius: 20px;
-}
+} */
 .portfolio-area.style-4 .item .img-fluid img {
+  border-radius: 20px;
   width: 100%;
 }
 .portfolio-area.style-4 .item .portfolio-wrapper {
@@ -27847,7 +27869,7 @@ p.disc.banner-para {
   border-radius: 0;
 }
 .rts-single-wized.service .single-categories li a {
-  border-radius: 0;
+  border-radius: 100px;
 }
 .rts-single-wized.download {
   background: #1c2539;
@@ -27977,11 +27999,11 @@ p.disc.banner-para {
   border-radius: 5px;
 }
 .rts-single-wized .single-categories li a i {
-  color: var(--color-primary);
+  color: var(--color-primary-2);
   transition: 0.3s;
 }
 .rts-single-wized .single-categories li a:hover {
-  background: var(--color-primary);
+  background: var(--color-primary-2);
   transform: translateY(-5px) scale(1.03);
   color: var(--color-white);
 }
