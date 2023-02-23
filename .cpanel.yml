@@ -7,7 +7,7 @@ tasks:
   - /bin/cp contactus.html $DEPLOYPATH
   - /bin/cp fuel-supply-services.html $DEPLOYPATH
   - /bin/cp general-trading.html $DEPLOYPATH
-  - /bin/cp home.html $DEPLOYPATH
+  - /bin/cp index.html $DEPLOYPATH
   - /bin/cp logistic-management.html $DEPLOYPATH
   - /bin/cp projects.html $DEPLOYPATH
   - /bin/cp mailer.php $DEPLOYPATH

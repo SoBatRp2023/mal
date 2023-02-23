@@ -16811,23 +16811,23 @@ li.has-droupdown {
 
 .breadcrumb-bg-biodiesel {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/breadcrumb/mal/biodiesel.jpg");
+    url("../images/breadcrumb/mal/biodiesel.webp");
   background-position: bottom;
 }
 
 .breadcrumb-bg-log-manage {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/breadcrumb/mal/logistic-management.jpg");
+    url("../images/breadcrumb/mal/logistic-management.webp");
 }
 
 .breadcrumb-bg-general-trading {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/breadcrumb/mal/general-trading.jpg");
+    url("../images/breadcrumb/mal/general-trading.webp");
 }
 
 .breadcrumb-bg-fs-services {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/breadcrumb/mal/fuel-supply-services.jpg");
+    url("../images/breadcrumb/mal/fuel-supply-services.webp");
 }
 
 .breadcrumb-bg-projects {
@@ -16837,12 +16837,12 @@ li.has-droupdown {
 
 .breadcrumb-bg-about-us {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/cta/mal/02.png");
+    url("../images/cta/mal/02.webp");
 }
 
 .breadcrumb-bg-contact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/breadcrumb/mal/contact-us.jpg");
+    url("../images/breadcrumb/mal/contact-us.webp");
 }
 
 .breadcrumb-bg {
@@ -18931,7 +18931,7 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
 }
 .banner-three.banner-four.banner-five {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../images/banner/banner-kapal-lpg.jpg");
+    url("../images/banner/banner-kapal-lpg.webp");
   background-size: cover;
   position: relative;
 }
@@ -19025,7 +19025,7 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
   .banner-three.banner-four.banner-five .banner-five-inner .title {
     margin-top: 20px;
     font-size: 30px;
-    line-height: 10px;
+    line-height: 30px;
   }
 }
 .banner-three.banner-four.banner-five .banner-five-inner .disc {
@@ -22649,7 +22649,7 @@ p.disc.banner-para {
 }
 
 .cta-one-bg {
-  background-image: url(../images/cta/mal/02.png);
+  background-image: url(../images/cta/mal/02.webp);
   background-repeat: no-repeat;
   background-color: var(--color-primary-2);
   background-blend-mode: multiply;
@@ -22726,7 +22726,7 @@ p.disc.banner-para {
 }
 
 .bg-call-to-action-two {
-  background-image: url(../images/cta/mal/02.png);
+  background-image: url(../images/cta/mal/02.webp);
   background-repeat: no-repeat;
   background-color: var(--color-primary-2);
   background-blend-mode: multiply;
@@ -22881,21 +22881,6 @@ p.disc.banner-para {
   color: #fff;
 }
 
-.rts-callto-acation-area5 {
-  background-image: url(../images/cta/mal/01.jpg);
-  background-color: #000000cc;
-  background-repeat: no-repeat;
-  background-blend-mode: multiply;
-  background-position: center;
-  object-fit: contain;
-  background-size: cover;
-
-  /* Set a specific height */
-  /* min-height: 500px; */
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-}
 .rts-callto-acation-area5 .container .cta-two-wrapper .title-area {
   width: 100%;
 }
@@ -24320,9 +24305,9 @@ p.disc.banner-para {
   transform: translateY(-50%);
   /* content: "+"; */
 }
-.single-counter .counter-details .title.happy span::after {
+/* .single-counter .counter-details .title.happy span::after {
   content: "+";
-}
+} */
 @media only screen and (max-width: 767px) {
   .single-counter .counter-details .title.happy span::after {
     right: -40px;
