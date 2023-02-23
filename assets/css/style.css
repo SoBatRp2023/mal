@@ -17758,6 +17758,14 @@ li.has-droupdown {
   background: var(--color-gray);
   color: #1c2539;
 }
+
+@media screen and (max-width: 360px) {
+  .see-more-about-us {
+    padding: 16px 20px;
+    font-size: 14px;
+  }
+}
+
 .rts-btn.btn-primary-5 {
   background: var(--color-primary-5);
   color: #fff;
@@ -20002,6 +20010,19 @@ p.disc.banner-para {
   animation: jump-2 6s linear infinite;
   width: 310px;
 }
+
+@media only screen and (max-width: 767px) {
+  .about-one-thumbnail .experience {
+    padding: 20px 24px;
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .about-one-thumbnail .experience {
+    padding: 8px 20px;
+  }
+}
+
 .about-one-thumbnail .experience .single {
   width: 50%;
 }
@@ -22054,6 +22075,7 @@ p.disc.banner-para {
   height: 500px;
   transition: 0.5s;
   border-radius: 15px;
+  object-fit: cover;
 }
 .service-one-inner-four .big-thumbnail-area .content {
   position: absolute;
@@ -22066,6 +22088,20 @@ p.disc.banner-para {
   transition: 0.5s;
   text-align: left;
 }
+
+@media only screen and (max-width: 509px) {
+  .service-one-inner-four .big-thumbnail-area .content {
+    overflow: visible;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .service-one-inner-four .big-thumbnail-area .content {
+    overflow: visible;
+    height: 150px;
+  }
+}
+
 .service-one-inner-four .big-thumbnail-area .content img {
   max-width: 85px;
   height: auto;
@@ -31547,7 +31583,7 @@ p.disc {
   margin: 0;
 }
 .footer-one-single-wized .quick-link-inner .links.margin-left-70 {
-  margin-left: 70px;
+  margin-left: 30px;
 }
 @media only screen and (max-width: 479px) {
   .footer-one-single-wized .quick-link-inner .links.margin-left-70 {
