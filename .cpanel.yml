@@ -2,4 +2,13 @@
 deployment:
 tasks:
   - export DEPLOYPATH=/home/usercpanel/public_html/git
-  -/bin/cp -r * $DEPLOYPATH
+  - /bin/cp about-us.html $DEPLOYPATH
+  - /bin/cp biodesel-fuel-supply.html $DEPLOYPATH
+  - /bin/cp contactus.html $DEPLOYPATH
+  - /bin/cp fuel-supply-services.html $DEPLOYPATH
+  - /bin/cp general-trading.html $DEPLOYPATH
+  - /bin/cp home.html $DEPLOYPATH
+  - /bin/cp logistic-management.html $DEPLOYPATH
+  - /bin/cp projects.html $DEPLOYPATH
+  - /bin/cp mailer.php $DEPLOYPATH
+  - /bin/cp -R assets $DEPLOYPATH
