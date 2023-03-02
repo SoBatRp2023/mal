@@ -10949,7 +10949,7 @@ body {
   position: relative;
   z-index: 1;
 }
-.rts-title-area::after {
+/* .rts-title-area::after {
   position: absolute;
   content: "About Us";
   left: -14%;
@@ -10969,7 +10969,7 @@ body {
   align-items: center;
   opacity: 0.35;
   font-family: var(--font-secondary);
-}
+} */
 @media only screen and (max-width: 1199px) {
   .rts-title-area::after {
     font-size: 90px;
@@ -11007,11 +11007,11 @@ body {
 .rts-title-area .title {
   margin-bottom: 24px;
 }
-.rts-title-area.service::after {
+/* .rts-title-area.service::after {
   content: "Business";
   left: 50%;
   transform: translateX(-50%);
-}
+} */
 .rts-title-area.pricing-planes::after {
   content: "price plans";
   left: 50%;
@@ -11020,12 +11020,12 @@ body {
   height: 168px;
   top: -70%;
 }
-.rts-title-area.service-four::after {
+/* .rts-title-area.service-four::after {
   content: "Services";
   left: 50%;
   transform: translateX(-50%);
   top: -20%;
-}
+} */
 .rts-title-area.business::after {
   content: "Business Goal";
   min-width: max-content;
@@ -22444,6 +22444,10 @@ p.disc.banner-para {
   }
 }
 .rts-service-area5 .container .service-one-inner-four {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
   background: #ffffff;
   box-shadow: 0px 4px 58px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
@@ -23366,7 +23370,7 @@ p.disc.banner-para {
 }
 .rts-business-case-s-2:hover .thumbnail img {
   transform: scale(1.1);
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
 }
 .rts-business-case-s-2:hover::after {
   top: -16%;
