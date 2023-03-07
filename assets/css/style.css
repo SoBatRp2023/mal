@@ -18628,7 +18628,7 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
 .rts-banner-area-two.eight {
   position: relative;
 }
-.rts-banner-area-two.eight::before {
+/* .rts-banner-area-two.eight::before {
   position: absolute;
   content: "";
   background-image: url(../images/banner/shape/shape.webp);
@@ -18638,7 +18638,7 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
   right: 0;
   bottom: 0;
   z-index: 3;
-}
+} */
 .rts-banner-area-two.eight .bg_banner-three::after {
   position: absolute;
   content: "";
@@ -19072,8 +19072,9 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
   background-image: url(../images/banner/banner-09.jpg);
 }
 .bg_banner-three.eight {
-  background-image: url(../images/banner/it-3.webp);
+  background-image: url(../images/banner/power-plant-bg-1.webp);
   padding-top: 400px;
+  background-position: bottom;
 }
 .bg_banner-three.eight-2 {
   background-image: url(../images/banner/it-1.webp);
@@ -19202,6 +19203,9 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
   color: #fff;
   letter-spacing: 0.3em;
   text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  display: flow-root;
 }
 @media only screen and (max-width: 575px) {
   .banner-three-inner .subtitle-banner {
@@ -19239,8 +19243,10 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
 }
 .banner-three-inner .disc {
   color: #fff;
-  width: 68%;
   margin-bottom: 46px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media only screen and (max-width: 767px) {
   .banner-three-inner .disc {
@@ -22819,10 +22825,11 @@ p.disc.banner-para {
 }
 
 .cta-bg-h2 {
-  background-image: url(../images/cta/bg-01.jpg);
+  background-image: url(../images/cta/mal/01.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
+  background-attachment: fixed;
 }
 
 .cta-h2-wrapper {
