@@ -19072,17 +19072,19 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
   background-image: url(../images/banner/banner-09.jpg);
 }
 .bg_banner-three.eight {
-  background-image: url(../images/banner/power-plant-bg-1.webp);
+  background-image: url(../images/banner/power-plant-bg-2.webp);
   padding-top: 400px;
   background-position: bottom;
 }
 .bg_banner-three.eight-2 {
-  background-image: url(../images/banner/it-1.webp);
+  background-image: url(../images/banner/power-plant-bg-1.webp);
   padding-top: 400px;
+  background-position: bottom;
 }
 .bg_banner-three.eight-3 {
-  background-image: url(../images/banner/it-2.webp);
+  background-image: url(../images/banner/power-plant-bg-3.webp);
   padding-top: 400px;
+  background-position: bottom;
 }
 .bg_banner-three::after {
   position: absolute;
@@ -19141,7 +19143,7 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
     margin-bottom: 30px;
   }
 }
-.banner-three-inner::after {
+/* .banner-three-inner::after {
   position: absolute;
   content: "Solution Model";
   left: 15%;
@@ -19166,7 +19168,7 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: white;
-}
+} */
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .banner-three-inner::after {
     font-size: 100px;
@@ -26691,7 +26693,7 @@ p.disc.banner-para {
 
 .feature-one-wrapper {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 @media only screen and (max-width: 1199px) {
   .feature-one-wrapper {
@@ -30958,9 +30960,6 @@ p.disc {
   .rts-service-areah2-im-3 .image-area img.three {
     width: 85%;
   }
-}
-.rts-service-areah2-im-3.eight .title-area.service-h2.service::after {
-  content: "01";
 }
 
 .working-process-area2 {
