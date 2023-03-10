@@ -19072,7 +19072,7 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
   background-image: url(../images/banner/banner-09.jpg);
 }
 .bg_banner-three.eight {
-  background-image: url(../images/banner/power-plant-bg-2.webp);
+  background-image: url(../images/banner/power-plant-bg-3.webp);
   padding-top: 400px;
   background-position: bottom;
 }
@@ -19082,7 +19082,7 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
   background-position: bottom;
 }
 .bg_banner-three.eight-3 {
-  background-image: url(../images/banner/power-plant-bg-3.webp);
+  background-image: url(../images/banner/power-plant-bg-2.webp);
   padding-top: 400px;
   background-position: bottom;
 }
@@ -22872,7 +22872,6 @@ p.disc.banner-para {
   }
 }
 .cta-h2-wrapper .body {
-  margin-top: 85px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30947,15 +30946,14 @@ p.disc {
 .rts-service-areah2-im-3 .image-area img.two {
   position: absolute;
   z-index: 5;
-  top: -10%;
-  left: 40%;
+  top: 80%;
+  left: -12%;
+  width: 40%;
   animation: jump-1 5s linear infinite;
 }
-.rts-service-areah2-im-3 .image-area img.three {
-  position: absolute;
-  left: 18%;
-  top: 38%;
-}
+/* .rts-service-areah2-im-3 .image-area img.three {
+  animation: jump-1 5s linear infinite;
+} */
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .rts-service-areah2-im-3 .image-area img.three {
     width: 85%;
@@ -31010,13 +31008,13 @@ p.disc {
   background: var(--color-primary-6);
 }
 
-.rts-working-process-section.eight .title-area::after {
+/* .rts-working-process-section.eight .title-area::after {
   content: "02";
   left: 7%;
   transform: translateX(-50%);
   top: -70%;
   height: 145px;
-}
+} */
 .rts-working-process-section.eight .rts-working-process-inner {
   margin-top: 60px;
 }
