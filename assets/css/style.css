@@ -23276,12 +23276,12 @@ p.disc.banner-para {
   border-color: var(--color-primary-3);
 }
 
-.business-case-bg-2 {
+/* .business-case-bg-2 {
   background-image: url(../images/business-case/bg-02.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   width: 100%;
-}
+} */
 
 .container-cusiness-case-h2 {
   max-width: 1680px;
@@ -23295,7 +23295,7 @@ p.disc.banner-para {
   border-radius: 20px;
   width: 100%;
 }
-.rts-business-case-s-2::after {
+/* .rts-business-case-s-2::after {
   content: "";
   position: absolute;
   background-image: url(../images/business-case/icon/shape-1.png);
@@ -23306,7 +23306,7 @@ p.disc.banner-para {
   z-index: 0;
   background-repeat: no-repeat;
   transition: 0.3s;
-}
+} */
 .rts-business-case-s-2 .thumbnail {
   border-radius: 20px;
   overflow: hidden;
