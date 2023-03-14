@@ -137,8 +137,8 @@ body {
   font-weight: var(--p-regular);
   position: relative;
   overflow-x: hidden;
-  zoom: 90%;
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   body {
     overflow: hidden;
@@ -16299,10 +16299,6 @@ body.sal-disabled [data-sal|="flip"] {
   top: 0;
 }
 
-li.has-droupdown {
-  margin-right: 16px !important;
-}
-
 @media only screen and (max-width: 575px) {
   .menu-block-none {
     display: none;
@@ -32391,7 +32387,7 @@ p.disc {
 }
 
 .img-water-hover img {
-  transition: transform .5s ease;
+  transition: transform 0.5s ease;
   border-radius: 12px;
 }
 
