@@ -18890,7 +18890,7 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
   }
 }
 .banner-three.banner-four .bg_banner-four .banner-four-inner .disc {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 28px;
   /* color: #5D666F; */
@@ -19076,11 +19076,13 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
   background-image: url(../images/banner/power-plant-bg-3.webp);
   padding-top: 400px;
   background-position: bottom;
+  height: 800px;
 }
 .bg_banner-three.eight-2 {
   background-image: url(../images/banner/power-plant-bg-1.webp);
   padding-top: 400px;
   background-position: bottom;
+  height: 800px;
 }
 .bg_banner-three.eight-3 {
   background-image: url(../images/banner/power-plant-bg-2.webp);
@@ -19218,15 +19220,14 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
 }
 .banner-three-inner .title {
   color: #fff;
-  font-size: 100px;
-  text-transform: uppercase;
+  font-size: 60px;
   font-weight: 900;
   margin-top: 5px;
   margin-bottom: 17px;
 }
 @media only screen and (max-width: 1199px) {
   .banner-three-inner .title {
-    font-size: 75px;
+    font-size: 60px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -19659,13 +19660,13 @@ p.disc.banner-para {
   margin-top: 13px;
   margin-bottom: 0;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 32px;
   line-height: 58px;
   color: #181a1c;
 }
 @media only screen and (max-width: 1199px) {
   .title-area-style-six .title {
-    font-size: 36px;
+    font-size: 28px;
     line-height: 50px;
   }
 }
@@ -21289,7 +21290,7 @@ p.disc.banner-para {
 }
 
 .service-detials-step-2 p.disc {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 32px;
 }
 .service-detials-step-2.inner {
@@ -21310,8 +21311,8 @@ p.disc.banner-para {
 }
 .service-detials-step-1 p.disc {
   margin-bottom: 23px;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 28px;
 }
 .service-detials-step-1 .service-details-card {
   padding: 30px;
@@ -21388,7 +21389,7 @@ p.disc.banner-para {
   margin-bottom: 8px;
 }
 .service-detials-step-3 p.disc {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 32px;
   margin-bottom: 20px;
 }
@@ -23214,7 +23215,7 @@ p.disc.banner-para {
   color: var(--color-primary-3);
 }
 .rts-business-solution-right .content-area p.disc {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 32px;
   font-weight: 400;
   color: #5d666f;
@@ -30607,8 +30608,8 @@ p.disc.banner-para {
 }
 
 p.disc {
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 28px;
 }
 
 .details-right-inner .title-area {
@@ -32396,3 +32397,11 @@ p.disc {
   border-radius: 12px;
 }
 /*# sourceMappingURL=../maps/style.css.map */
+
+.desc {
+  font-size: 16px;
+}
+
+.disc-p {
+  font-size: 16px;
+}
