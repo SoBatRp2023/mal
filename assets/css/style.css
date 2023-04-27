@@ -11040,13 +11040,7 @@ body {
   transform: translateX(-50%);
   z-index: -1;
 }
-.rts-title-area.team::after {
-  content: "Members";
-  left: 49%;
-  transform: translateX(-50%);
-  z-index: -1;
-  height: 109px;
-}
+
 .rts-title-area.feedback::after {
   content: "Testimonial";
   left: 49%;
