@@ -1,66 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
-<url>
-  <loc>https://mitraadhyalistrindo.com/</loc>
-  <lastmod>2023-03-14T04:47:21+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://mitraadhyalistrindo.com/contactus.html</loc>
-  <lastmod>2023-03-13T10:16:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mitraadhyalistrindo.com/index.html</loc>
-  <lastmod>2023-03-14T04:47:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mitraadhyalistrindo.com/fuel-supply-services.html</loc>
-  <lastmod>2023-03-13T10:16:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mitraadhyalistrindo.com/general-trading.html</loc>
-  <lastmod>2023-03-13T10:16:59+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mitraadhyalistrindo.com/logistic-management.html</loc>
-  <lastmod>2023-03-13T10:16:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mitraadhyalistrindo.com/biodesel-fuel-supply.html</loc>
-  <lastmod>2023-03-13T10:16:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mitraadhyalistrindo.com/power-plant.html</loc>
-  <lastmod>2023-03-13T10:16:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mitraadhyalistrindo.com/water-treatment.html</loc>
-  <lastmod>2023-03-13T10:16:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mitraadhyalistrindo.com/projects.html</loc>
-  <lastmod>2023-03-13T10:16:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mitraadhyalistrindo.com/about-us.html</loc>
-  <lastmod>2023-03-13T10:16:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://mitraadhyalistrindo.com/</loc>
+    <lastmod>2023-05-02</lastmod>
+  </url>
+  <url>
+    <loc>https://mitraadhyalistrindo.com/contactus.html</loc>
+    <lastmod>2023-05-02</lastmod>
+  </url>
+  <url>
+    <loc>https://mitraadhyalistrindo.com/index.html</loc>
+    <lastmod>2023-05-02</lastmod>
+  </url>
+  <url>
+    <loc>https://mitraadhyalistrindo.com/fuel-supply-services.html</loc>
+    <lastmod>2023-05-02</lastmod>
+  </url>
+  <url>
+    <loc>https://mitraadhyalistrindo.com/general-trading.html</loc>
+    <lastmod>2023-05-02</lastmod>
+  </url>
+  <url>
+    <loc>https://mitraadhyalistrindo.com/logistic-management.html</loc>
+    <lastmod>2023-05-02</lastmod>
+  </url>
+  <url>
+    <loc>https://mitraadhyalistrindo.com/biodesel-fuel-supply.html</loc>
+    <lastmod>2023-05-02</lastmod>
+  </url>
+  <url>
+    <loc>https://mitraadhyalistrindo.com/power-plant.html</loc>
+    <lastmod>2023-05-02</lastmod>
+  </url>
+  <url>
+    <loc>https://mitraadhyalistrindo.com/water-treatment.html</loc>
+    <lastmod>2023-05-02</lastmod>
+  </url>
+  <url>
+    <loc>https://mitraadhyalistrindo.com/projects.html</loc>
+    <lastmod>2023-05-02</lastmod>
+  </url>
+  <url>
+    <loc>https://mitraadhyalistrindo.com/about-us.html</loc>
+    <lastmod>2023-05-02</lastmod>
+  </url>
 </urlset>
