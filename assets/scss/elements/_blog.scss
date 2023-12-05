@@ -44,7 +44,7 @@
     }
     .blog-content{
         p{
-            font-size: 14px;
+            font-size: 12px;
             font-weight: 500;
             line-height: 18px;
             text-transform: uppercase;
@@ -137,7 +137,7 @@
                 }
                 span{
                     font-weight: 400;
-                    font-size: 14px;
+                    font-size: 12px;
                     line-height: 18px;
                     color: #FFFFFF;
                 }
@@ -213,7 +213,7 @@
                 right: 0;
                 i{
                     color: #fff;
-                    font-size: 16px;
+                    font-size: 12px;
                     line-height: 16px;
                 }
             }
@@ -287,14 +287,14 @@
         .post-title{
             .title{
                 margin-bottom: 0;
-                font-size: 16px;
+                font-size: 12px;
                 font-weight: 600;
                 color: #1C2539;
                 line-height: 26px;
                 margin-top: 5px;
                 transition: .3s;
                 @media #{$small-mobile} {
-                    font-size: 14px;
+                    font-size: 12px;
                     line-height: 26px;
                     margin-top: 0;
                 }
@@ -366,7 +366,7 @@
             margin-right: 10px;
             margin-bottom: 10px;
             color: #1C2539;
-            font-size: 14px;
+            font-size: 12px;
             font-weight: 500;
             transition: .3s;
             &:hover{
@@ -426,7 +426,7 @@
             .title{
                 margin-bottom: 25px;
                 @media #{$small-mobile} {
-                    font-size: 16px;
+                    font-size: 12px;
                     margin-bottom: 15px;
                 }
             }
@@ -438,7 +438,7 @@
             span{
                 display: block;
                 font-weight: 400;
-                font-size: 14px;
+                font-size: 12px;
                 color: #5D666F;
             }
         }
@@ -476,7 +476,7 @@
                 background: #F6F6F6;
                 max-width: max-content;
                 margin-left: 10px;
-                font-size: 14px;
+                font-size: 12px;
                 font-weight: 500;
                 border-radius: 5px;
                 color: #1C2539;
@@ -517,7 +517,7 @@
                 margin-left: 23px;
                 color: #1C2539;
                 transition: .3s;
-                font-size: 14px;
+                font-size: 12px;
                 &::after{
                     position: absolute;
                     content: '';
@@ -676,7 +676,7 @@
                     color: var(--color-primary);
                     @media #{$large-mobile} {
                         margin-right: 2px;
-                        font-size: 14px;
+                        font-size: 12px;
                     }
                 }
                 span{
@@ -700,7 +700,7 @@
         }
         p{
             &.disc{
-                font-size: 16px;
+                font-size: 12px;
                 line-height: 26px;
                 // margin-bottom: 32px;
                 @media #{$small-mobile} {
@@ -737,7 +737,7 @@
             font-weight: 500;
             letter-spacing: 0.3em;
             text-transform: uppercase;
-            font-size: 16px;
+            font-size: 12px;
         }
         .title{
             text-transform: uppercase;
@@ -766,7 +766,7 @@
                 padding: 7px 24px;
                 background: var(--color-primary-3);
                 color: #fff;
-                font-size: 16px;
+                font-size: 12px;
             }
             img{
                 max-width: max-content;
@@ -801,14 +801,14 @@
                 align-items: center;
                 i{
                     color: var(--color-primary-3);
-                    font-size: 16px;
+                    font-size: 12px;
                 }
                 span{
                     color: #5D666F;
                     margin-left: 7px;
                     position: relative;
                     margin-bottom: -2px;
-                    font-size: 16px;
+                    font-size: 12px;
                     @media #{$laptop-device} {
                         font-size: 13px;
                     }
@@ -832,13 +832,13 @@
                 }
                 i{
                     color: var(--color-primary-3);
-                    font-size: 16px;
+                    font-size: 12px;
                 }
                 span{
                     color: #5D666F;
                     margin-left: 7px;
                     position: relative;
-                    font-size: 16px;
+                    font-size: 12px;
                     margin-bottom: -2px;
                     @media #{$laptop-device} {
                         font-size: 13px;
@@ -880,7 +880,7 @@
                     line-height: 27px;
                 }
                 @media #{$large-mobile} {
-                    font-size: 16px;
+                    font-size: 12px;
                     line-height: 26px;
                 }
             }
@@ -915,7 +915,7 @@
     .body{
         span{
             color: #0B4DF5;
-            font-size: 16px;
+            font-size: 12px;
             font-weight: 500;
         }
         a{
@@ -999,7 +999,7 @@
         .title-service-three{
             .pre-title{
                 color: var(--color-primary-4);
-                font-size: 16px;
+                font-size: 12px;
                 font-weight: 600;
                 line-height: 21px;
                 text-transform: uppercase;
@@ -1036,7 +1036,7 @@
                     .date{
                         margin: 0;
                         position: relative;
-                        font-size: 16px;
+                        font-size: 12px;
                         &::before{
                             content: '\f017';
                             position: absolute;
@@ -1048,7 +1048,7 @@
                     .author{
                         margin-left: 40px;
                         position: relative;
-                        font-size: 16px;
+                        font-size: 12px;
                         &::before{
                             content: '\f007';
                             position: absolute;
@@ -1066,7 +1066,7 @@
             .title-service-three{
                 .pre-title{
                     color: var(--color-primary-2);
-                    font-size: 16px;
+                    font-size: 12px;
                     font-weight: 400;
                     line-height: 21px;
                     text-transform: uppercase;
@@ -1124,7 +1124,7 @@
                         .desc{
                             margin: 0 0 20px 0;
                             transition: all .5s;
-                            font-size: 16px;
+                            font-size: 12px;
                             line-height: 26px;
                         }
                     }
@@ -1136,7 +1136,7 @@
                         transition: all .5s;
                         .author{
                             margin-left: 0;
-                            font-size: 14px;
+                            font-size: 12px;
                             @media(max-width:400px){
                                 font-size: 13px;
                             }
@@ -1186,7 +1186,7 @@
                             .content{
                                 .desc{
                                     margin-bottom: 0;
-                                    font-size: 16px;
+                                    font-size: 12px;
                                 }
                             }
                         }
@@ -1268,7 +1268,7 @@
                 p{
                     color: #0B101C;
                     font-weight: 500;
-                    font-size: 14px;
+                    font-size: 12px;
                     line-height: 18px;
                     span{
                         color: #FA360A;
@@ -1285,7 +1285,7 @@
                 a{
                     &.rts-read-more{
                         font-weight: 500;
-                        font-size: 16px;
+                        font-size: 12px;
                         line-height: 21px;
                         color: #0B101C;
                         i{
@@ -1352,7 +1352,7 @@
                 background: #B00F0F;
                 border-radius: 20px 0px;
                 font-weight: 500;
-                font-size: 16px;
+                font-size: 12px;
                 line-height: 21px;
                 padding: 7px 13px;
             }
@@ -1366,7 +1366,7 @@
                 &.main{
                     color: var(--color-primary-5);
                     font-weight: 500;
-                    font-size: 14px;
+                    font-size: 12px;
                     line-height: 18px;
                 }
             }

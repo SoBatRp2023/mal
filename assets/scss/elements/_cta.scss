@@ -55,7 +55,7 @@
         .rts-btn {
             @media #{$small-mobile} {
                 padding: 13px 20px;
-                font-size: 14px;
+                font-size: 12px;
             }
         }
     }
@@ -71,7 +71,7 @@
         }
 
         @media #{$small-mobile} {
-            font-size: 16px;
+            font-size: 12px;
             line-height: 26px;
             font-weight: 500;
         }
@@ -339,7 +339,7 @@
             padding: 0 25px 25px 25px;
             h6{
                 color: #999;
-                font-size: 14px;
+                font-size: 12px;
                 margin-bottom: 15px;
                 font-weight: 400;
             }
@@ -350,7 +350,7 @@
                 font-weight: 700;
             }
             p{
-                font-size: 16px;
+                font-size: 12px;
                 font-weight: 400;
             }
         }
@@ -360,7 +360,7 @@
             padding: 16px 20px;
             display: block;
             transition: all .3s ease 0s;
-            font-size: 14px;
+            font-size: 12px;
             font-weight: 700;
             position: relative;
             z-index: 2;

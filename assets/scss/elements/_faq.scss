@@ -83,7 +83,7 @@
         margin-bottom: 50px;
         span{
             color: var(--color-primary);
-            font-size: 16px;
+            font-size: 12px;
             font-weight: 600;
             letter-spacing: 1px;
         }
@@ -109,7 +109,7 @@
                 padding: 29px 40px;
                 @media #{$large-mobile} {
                     padding: 13px 15px;
-                    font-size: 14px;
+                    font-size: 12px;
                 }
                 @media #{$small-mobile} {
                     display: flex;
@@ -146,7 +146,7 @@
         .accordion-body{
             padding: 0px 40px 40px 40px;
             @media #{$small-mobile} {
-                font-size: 14px;
+                font-size: 12px;
                 line-height: 24px;
                 padding: 20px;
                 padding-top: 0;
@@ -192,7 +192,7 @@
                     padding: 29px 40px;
                     @media #{$large-mobile} {
                         padding: 13px 15px;
-                        font-size: 14px;
+                        font-size: 12px;
                     }
                     @media #{$small-mobile} {
                         display: flex;
@@ -237,7 +237,7 @@
                 color: #f9f9f9;
                 background: var(--color-primary);
                 @media #{$small-mobile} {
-                    font-size: 14px;
+                    font-size: 12px;
                     line-height: 24px;
                     padding: 20px;
                     padding-top: 0;
@@ -271,7 +271,7 @@
     .title-area-faq{
         .sub{
             color: var(--color-primary);
-            font-size: 16px;
+            font-size: 12px;
             font-weight: 700;
             letter-spacing: 0.3em;
         }
@@ -319,7 +319,7 @@
                         display: flex;
                         padding: 0 35px;
                         @media #{$large-mobile} {
-                            font-size: 14px;
+                            font-size: 12px;
                         }
                         &[aria-expanded="true"]{
                             border: 1px solid transparent;

@@ -116,14 +116,14 @@
         border-radius: 50%;
         color: #fff;
         margin-right: 15px;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 12px;
     }
     p{
         color: #1C2539;
         font-weight: 700;
         @media #{$laptop-device} {
-            font-size: 14px;
+            font-size: 12px;
         }
     }
     &.eight{

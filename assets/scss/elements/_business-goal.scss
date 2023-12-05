@@ -87,7 +87,7 @@
             color: #fff;
         }
         span{
-            font-size: 16px;
+            font-size: 12px;
             letter-spacing: 0.16em;
             color: #fff;
             font-weight: 500;
@@ -147,7 +147,7 @@
     .content-area{
         p{
             &.disc{
-                font-size: 16px;
+                font-size: 12px;
                 line-height: 26px;
                 font-weight: 400;
                 color: #5D666F;
@@ -193,12 +193,12 @@
         font-size: 22px;
         margin-bottom: 5px;
         @media #{$small-mobile} {
-            font-size: 16px;
+            font-size: 12px;
         }
     }
     p{
         &.disc{
-            font-size: 16px;
+            font-size: 12px;
             line-height: 26px;
             color: #5D666F; 
         }
@@ -274,7 +274,7 @@
         }
         span{
             color: #5D666F;
-            font-size: 16px;            
+            font-size: 12px;            
             position: relative;
             &::after{
                 position: absolute;
@@ -610,7 +610,7 @@
                     transition: all .3s;
                 }
                 .desc{
-                    font-size: 16px;
+                    font-size: 12px;
                     line-height: 28px;
                     transition: all .3s;
                 }
@@ -695,7 +695,7 @@
     p{
         &.disc{
             font-weight: 400;
-            font-size: 16px;
+            font-size: 12px;
             line-height: 26px;
             color: #74787C;
             margin-top: 25px;
@@ -719,7 +719,7 @@
             }
             p{
                 font-weight: 600;
-                font-size: 16px;
+                font-size: 12px;
                 line-height: 21px;
                 letter-spacing: -0.02em;
                 color: #181A1C;
@@ -871,7 +871,7 @@
                 background: transparent;
                 border: none !important;
                 font-weight: 700;
-                font-size: 16px;
+                font-size: 12px;
                 line-height: 21px;
                 color: #181A1C;
                 &:hover{

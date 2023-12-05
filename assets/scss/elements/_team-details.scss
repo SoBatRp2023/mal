@@ -22,7 +22,7 @@
         span{
             margin-bottom: 5px;
             color: #5D666F;
-            font-size: 16px;
+            font-size: 12px;
             font-weight: 400;
         }
         a{
@@ -30,7 +30,7 @@
                 margin-bottom: 0;
                 transition: .3s;
                 @media #{$small-mobile} {
-                    font-size: 14px;
+                    font-size: 12px;
                 }
             }
             &:hover{
@@ -42,7 +42,7 @@
     }
 }
 p.disc {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 26px;
 }
 .details-right-inner{
@@ -51,7 +51,7 @@ p.disc {
         span{
             color: #5D666F;
             font-weight: 500;
-            font-size: 16px;
+            font-size: 12px;
         }
         .title{
             margin-top: 0px;
@@ -62,7 +62,7 @@ p.disc {
     p{
         &.disc{
             font-weight: 400;
-            font-size: 16px;
+            font-size: 12px;
             line-height: 26px;
             margin-bottom: 33px;
             color: #5D666F;
@@ -150,12 +150,12 @@ p.disc {
             margin-bottom: 0;
             color: #DF0A0A;
             font-weight: 500;
-            font-size: 16px;
+            font-size: 12px;
         }
         .persectage{
             color: #DF0A0A;
             font-weight: 500;
-            font-size: 16px;
+            font-size: 12px;
         }
     }
 }

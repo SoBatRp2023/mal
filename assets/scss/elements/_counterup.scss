@@ -101,14 +101,14 @@
         }
         p{
             color: #fff;
-            font-size: 16px;
+            font-size: 12px;
             font-weight: 500;
             text-transform: uppercase;
             @media #{$laptop-device} {
                 font-size: 12px;
             }
             @media #{$sm-layout} {
-                font-size: 16px;
+                font-size: 12px;
             }
         }
     }

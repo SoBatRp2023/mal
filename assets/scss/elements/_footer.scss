@@ -44,10 +44,10 @@
                 color: #fff;
                 text-transform: uppercase;
                 letter-spacing: 2px;
-                font-size: 16px;
+                font-size: 12px;
                 font-family: var(--font-secondary);
                 @media #{$small-mobile} {
-                    font-size: 14px;
+                    font-size: 12px;
                 }
             }
             .title{
@@ -149,7 +149,7 @@
                     color: #fff;
                     font-family: var(--font-primary);
                     @media #{$md-layout} {
-                        font-size: 14px;
+                        font-size: 12px;
                     }
                 }
             }
@@ -311,7 +311,7 @@
                     p{
                         margin-bottom: 0;
                         color: #8B8F99;
-                        font-size: 14px;
+                        font-size: 12px;
                         margin-top: -6px;
                     }
                     a{
@@ -363,7 +363,7 @@
         border-top: 1px solid #21293D;
         padding: 30px 0;
         p{
-            font-size: 16px;
+            font-size: 12px;
             color: #fff;
         }
     }
@@ -429,13 +429,13 @@
     .copyright-area{
         border-top: 1px solid #E2E2E2;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 12px;
         line-height: 21px;
         color: #1C2539;
         P{
             color: #1C2539;
             flex-wrap: 400;
-            font-size: 16px;
+            font-size: 12px;
         }
     }
 }
@@ -479,7 +479,7 @@
         }
         .body{
             p{
-                font-size: 16px;
+                font-size: 12px;
                 line-height: 26px;
                 margin-bottom: 33px;
             }
@@ -530,7 +530,7 @@
         p{
             &.disc{
                 margin-bottom: 40px;
-                font-size: 16px;
+                font-size: 12px;
                 line-height: 26px;
             }
         }
@@ -588,7 +588,7 @@
                         z-index: 1;
                         color: var(--color-primary-3);
                         i{
-                            font-size: 14px;
+                            font-size: 12px;
                         }
                         &::after{
                             position: absolute;
@@ -614,7 +614,7 @@
                     }
                     a{
                         color: #1C2539;
-                        font-size: 16px;
+                        font-size: 12px;
                         font-weight: 600;
                         transition: .3s;
                         line-height: 22px;
@@ -683,7 +683,7 @@
         }
         p{
             &.disc{
-                font-size: 16px;
+                font-size: 12px;
                 color: #5D666F;
                 line-height: 26px;
             }
@@ -709,13 +709,13 @@
         li{
             a{
                 color: #5D666F;
-                font-size: 16px;
+                font-size: 12px;
                 font-weight: 400;
                 display: flex;
                 align-items: center;
                 transition: .3s;
                 i{
-                    font-size: 14px;
+                    font-size: 12px;
                     margin-right: 10px;
                 }
                 &:hover{
@@ -734,7 +734,7 @@
         i{
             position: relative;
             z-index: 1;
-            font-size: 14px;
+            font-size: 12px;
             color: var(--color-primary-2);
             &::after{
                 position: absolute;
@@ -757,13 +757,13 @@
         margin-left: 30px;
         span{
             color: #5D666F;
-            font-size: 16px;
+            font-size: 12px;
             font-weight: 400;
         }
         a{
             color: #1C2539;
             font-weight: 500;
-            font-size: 16px;
+            font-size: 12px;
             transition: .3s;
             &:hover{
                 color: var(--color-primary-2);
@@ -781,7 +781,7 @@
         i{
             position: relative;
             z-index: 1;
-            font-size: 14px;
+            font-size: 12px;
             color: var(--color-primary-2);
             &::after{
                 position: absolute;
@@ -804,13 +804,13 @@
         margin-left: 30px;
         span{
             color: #5D666F;
-            font-size: 16px;
+            font-size: 12px;
             font-weight: 400;
         }
         a{
             color: #1C2539;
             font-weight: 500;
-            font-size: 16px;
+            font-size: 12px;
             transition: .3s;
             &:hover{
                 color: var(--color-primary-2);
@@ -860,7 +860,7 @@
                     a{
                         color: #1C2539;
                         font-weight: 500;
-                        font-size: 16px;
+                        font-size: 12px;
                         transition: .3s;
                         @media #{$sm-layout} {
                             font-size: 12px;

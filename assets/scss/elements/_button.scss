@@ -3,7 +3,7 @@
 .rts-btn {
     padding: 17px 30px;
     min-width: max-content;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 21px;
     font-weight: 700;
     border-radius: 15px;
@@ -158,7 +158,7 @@
         color: var(--color-primary);
         padding: 17px 35px;
         font-weight: 700;
-        font-size: 16px;
+        font-size: 12px;
         line-height: 21px;
 
         &:hover {
@@ -239,7 +239,7 @@ button {
         margin-right: 12px;
         color: #1C2539;
         line-height: 12px;
-        font-size: 14px;
+        font-size: 12px;
         transition: var(--transition);
         box-shadow: 0px 9px 18px rgba(24, 16, 16, 0.05);
     }
@@ -404,7 +404,7 @@ button {
     &.rts-btn {
         @media #{$small-mobile} {
             padding: 10px 7px;
-            font-size: 14px;
+            font-size: 12px;
         }
     }
 }

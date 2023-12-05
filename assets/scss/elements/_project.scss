@@ -17,11 +17,11 @@
                 box-shadow: 0px 9px 18px rgba(24, 16, 16, 0.05);
                 border-radius: 15px;
                 display: inline-block;
-                font-size: 16px;
+                font-size: 12px;
                 font-weight: 700;
                 @media #{$small-mobile} {
                     padding: 10px 20px;
-                    font-size: 14px;
+                    font-size: 12px;
                 }
                 &.active{
                     background: var(--color-primary);
@@ -229,7 +229,7 @@
     }
     p{
         &.disc{
-            font-size: 16px;
+            font-size: 12px;
             margin-bottom: 25px;
         }
         &.italic{
@@ -250,7 +250,7 @@
         color: #1C2539;
         line-height: 26px;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 12px;
     }
     &:last-child{
         margin-bottom: 0;
@@ -297,7 +297,7 @@
         }
         span{
             color: var(--color-primary-3);
-            font-size: 16px;
+            font-size: 12px;
             line-height: 21px;
             letter-spacing: 0.3em;
             text-transform: uppercase;
@@ -356,7 +356,7 @@
                 }
             }
             span{
-                font-size: 16px;
+                font-size: 12px;
                 font-weight: 400;
                 color: #5D666F; 
             }
@@ -402,7 +402,7 @@
 .title-area-project-w-in{
     .sub{
         font-weight: 700;
-        font-size: 16px;
+        font-size: 12px;
         line-height: 21px;
         letter-spacing: 0.3em;
         color: var(--color-primary-3);
@@ -428,7 +428,7 @@
         &.disc{
             color: #fff;
             font-weight: 400;
-            font-size: 16px;
+            font-size: 12px;
             line-height: 26px;
             margin-bottom: 50px;
         }
@@ -462,7 +462,7 @@
                 span{
                     color: #fff; 
                     font-weight: 500;
-                    font-size: 14px;
+                    font-size: 12px;
                     line-height: 18px;   
                 }
                 .title-sm{
@@ -633,7 +633,7 @@
                 .portfolio-content{
                     position: absolute;
                     color: #fff;
-                    font-size: 16px;
+                    font-size: 12px;
                     font-weight: 700;
                     line-height: 1;
                     padding: 15px 30px;
@@ -645,7 +645,7 @@
                     transition: all .4s;
                     transform: translate(-50%,-50%) scale(0);
                     a {
-                        font-size: 14px;
+                        font-size: 12px;
                         left: 39%;
                         bottom: 55%;
                         padding: 2px 15px;
@@ -661,7 +661,7 @@
                         margin-bottom: 10px;
                         a {
                             color: #040404;
-                            font-size: 14px;
+                            font-size: 12px;
                         }
                     }
                     .p-title  {
@@ -731,7 +731,7 @@
                     z-index: 1;
                     span{
                         color: #fff;
-                        font-size: 14px;
+                        font-size: 12px;
                         font-weight: 400;
                     }
                     .portfolio-title{
@@ -827,7 +827,7 @@
                 z-index: 9;
                 span{
                     color: #fff;
-                    font-size: 14px;
+                    font-size: 12px;
                     font-weight: 400;
                 }
                 .portfolio-title{
